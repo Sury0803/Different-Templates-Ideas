@@ -699,3 +699,440 @@ h3{
 .cont .cardsone:nth-child(3) .content a{
     background: #bb02ff;
 }
+/* ----------------------forms--------------------------- */
+/* -------------------------------Responsive Forms---------------------------------- */
+.rep-form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+}
+.rep-form .imgr{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.rep-form .imgr:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #e91e63, #03e9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+.rep-form .imgr img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rep-form .rcontent{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rep-form .rcontent .formr{
+    width: 50%;
+}
+.rep-form .rcontent .formr h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: flex;
+    letter-spacing: 1px;
+}
+.rep-form .rcontent .formr .inputr{
+    margin-bottom: 20px;
+}
+.rep-form .rcontent .formr .inputr span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.rep-form .rcontent .formr .inputr input{
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+.rep-form .rcontent .formr .inputr input[type="submit"]{
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rep-form .rcontent .formr .inputr input[type="submit"]:hover{
+    background: #f53677;
+}
+.rep-form .rcontent .formr .remember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+}
+.rep-form .rcontent .formr .inputr p{
+    color: #607d8b;
+    display: flex;
+}
+.rep-form .rcontent .formr .inputr p a{
+    color: #ff4584;
+}
+@media (max-width:768px) {
+    .rep-form{
+        height: 120vh;
+    }
+    .rep-form .imgr{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .rep-form .rcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .rep-form .rcontent .formr{
+        width: 100%;
+        padding: 40px;
+        background: rgba(255,255,255,0.5);
+        margin: 10px;
+    }
+}
+/* --------------------------double form------------------------------------- */
+.dbform{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+main{
+    position: relative;
+    min-height: 100vh;
+    background: #fee648;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+main .dbcont{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+}
+main .dbcont .user{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main .dbcont .user .imgd{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    transition: 0.5s;
+}
+main .dbcont .user .imgd img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+main .dbcont .user .dform{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+main .dbcont .user .dform form h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+main .dbcont .user .dform form input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+    background: #f5f5f5;
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+main .dbcont .user .dform form input[type="submit"]{
+    max-width: 100px;
+    background: #677eff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .dbcont .user .dform form .signup{
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #555;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 0;
+    padding: 0;
+}
+
+
+/* -----------------contact form--------------------- */
+.contac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0d192e;
+    margin-top: 50px;
+}
+.ccont{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px;
+    height: 600px;
+    background: #122647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ccont .cform{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ccont .cform form{
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 75px;
+}
+.ccont .cform form h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.ccont .cform form .inputbox{
+    position: relative;
+    margin-bottom: 40px;
+}
+.ccont .cform form .inputbox:last-child{
+    margin-bottom: 0px;
+}
+.ccont .cform form .inputbox input,
+.ccont .cform form .inputbox textarea{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    resize: none;
+}
+.ccont .cform form .inputbox textarea{
+    height: 100px;
+}
+.ccont .cform form .inputbox input[type="submit"]{
+    background: #fff;
+    padding: 8px 20px;
+    margin-top: -10px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    background: #ff5064;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.ccont .cform form .inputbox input[type="submit"]:focus{
+    background: #1bfaad;
+    color: #111;
+}
+.ccont .cform form .inputbox span{
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    pointer-events: none;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.5);
+    transition: all 0.2s;
+}
+.ccont .cform form .inputbox input:focus ~ span,
+.ccont .cform form .inputbox textarea:focus ~ span,
+.ccont .cform form .inputbox input:valid ~ span,
+.ccont .cform form .inputbox textarea:valid ~ span {
+    transform: translateY(-24px);
+    color: #1bfaad;
+    font-size: 14px;
+}
+.ccont .cform form .inputbox input:focus,
+.ccont .cform form .inputbox textarea:focus, 
+.ccont .cform form .inputbox input:valid,
+.ccont .cform form .inputbox textarea:valid {
+    border-bottom-color: #fff;
+} 
+.ccont .imgc{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.ccont .imgc:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff5064;
+    transform-origin: bottom;
+    transform: skewX(-25deg) translateX(10%);
+    opacity: 0.6;
+}
+.ccont .imgc img{
+    /* position: absolute;
+    bottom: 0; */
+    margin-left: 20px ;
+    max-height: 100%;
+}
+@media (max-width:991px){
+    .ccont .cform{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .ccont .cform form{
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        padding: 0;
+    }
+    .ccont .imgc{
+        display: none;
+    }
+      
+}
+/* --------------------payment form------------------------------- */
+/* *{
+    box-sizing: border-box;
+} */
+.payform{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8 px;
+}
+.paycontainer{
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.paycontainer input[type="text"],
+.paycontainer input[type="number"],
+.paycontainer input[type="email"],
+.paycontainer input[type="date"],
+.paycontainer input[type="password"],
+.paycontainer select,
+.paycontainer textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;   
+}
+.paycontainer fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.paycontainer .main_heading{
+    text-align: center;
+}
+.paycontainer input[type="submit"]{
+    background-color:#4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.paycontainer input[type="submit"]:hover{
+    background-color:#4caf84;
+}
