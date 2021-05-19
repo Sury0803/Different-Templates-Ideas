@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(4,9,30,0.9);
+}
+nav h3{
+    color: red;
+    font-weight: bold;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-weight:500;
+    color: white;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.container{
+    margin: auto;
+    padding: 2% 6%;
+    width: 80%;
+    text-align: left;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.container h2{
+    text-align: center;
+    margin: 10px 10px;
+}
+.container input[type="text"],
+.container input[type="number"],
+.container input[type="email"],
+.container input[type="password"],
+.container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;   
+}
+.container input[type="submit"]{
+    background-color:#4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.container input[type="submit"]:hover{
+    background-color:#4caf84;
+}
+/* ---------------login-------------------- */
+.rep-form{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    margin-top: 100px;
+}
+.rep-form .imgr{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+/* .rep-form .imgr:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #e91e63, #03e9f4);
+    z-index: 1;
+    mix-blend-mode: screen;
+} */
+.rep-form .imgr img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rep-form .rcontent{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rep-form .rcontent .formr{
+    width: 50%;
+}
+.rep-form .rcontent .formr h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid darkblue;
+    display: flex;
+    letter-spacing: 1px;
+}
+.rep-form .rcontent .formr .inputr{
+    margin-bottom: 20px;
+}
+.rep-form .rcontent .formr .inputr span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.rep-form .rcontent .formr .inputr input{
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+.rep-form .rcontent .formr .inputr input[type="submit"]{
+    background: darkslateblue;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rep-form .rcontent .formr .inputr input[type="submit"]:hover{
+    background: #f44336;
+}
+.rep-form .rcontent .formr .remember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+}
+.rep-form .rcontent .formr .inputr p{
+    color: #607d8b;
+    display: flex;
+}
+.rep-form .rcontent .formr .inputr p a{
+    color: blue;
+}
+@media (max-width:768px) {
+    .rep-form .imgr{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .rep-form .rcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .rep-form .rcontent .formr{
+        width: 100%;
+        padding: 40px;
+        background: rgba(255,255,255,0.5);
+        margin: 10px;
+    }
+}
+@media(max-width: 700px){
+    nav h3{
+        font-size: 13px;
+    }  
+    .nav-links ul li a{
+        font-size: 10px;
+        opacity: 0.9;
+    }
+}

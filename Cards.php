@@ -12,11 +12,11 @@
 <body>
     <section class="sub-header">
         <nav>
-            <h3><a href="index.php">SuRyAnSh</a></h3>
+            <h3><a href="welcome.php">SuRyAnSh</a></h3>
             <div class="nav-links">
                 <ul>
                     <li><a href="features.php">FEATURES</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
                 </ul>
             </div>
         </nav>

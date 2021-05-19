@@ -16,7 +16,7 @@
             <div class="nav-links">
                 <ul>
                     <li><a href="features.php">FEATURES</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
                 </ul>
             </div>
         </nav>
