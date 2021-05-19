@@ -15,8 +15,8 @@
             <h3><a href="index.html">SuRyAnSh</a></h3>
             <div class="nav-links">
                 <ul>
-                    <li><a href="features.html">FETAURES</a></li>
-                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="features.php">FETAURES</a></li>
+                    <li><a href="about.php">ABOUT US</a></li>
                 </ul>
             </div>
         </nav>

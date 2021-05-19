@@ -12,11 +12,11 @@
 <body>
     <section class="header">
         <nav>
-            <h3><a href="index.html">SuRyAnSh</a></h3>
+            <h3><a href="index.php">SuRyAnSh</a></h3>
             <div class="nav-links">
                 <ul>
-                    <li><a href="features.html">FETAURES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="features.php">FETAURES</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -24,7 +24,7 @@
             <h1>Design It Sagaciously</h1>
             <p>Welcome to the right place to dive into the ocean of different ideas for homepages, forms, <br> indexes
                 and cards.</p>
-            <a href="about.html" class="hero-btn">Visit us to know more</a>
+            <a href="about.php" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
     <!--------Features-------->
@@ -117,7 +117,7 @@
         <div class="row">
             <div class="facilities-col">
                 <img src="img/angele-kamp-bDuh4oK_MCU-unsplash.jpg">
-                <a href="Cards.html">
+                <a href="Cards.php">
                     <div class="layer1">
                         <h3>CARDS</h3>
                     </div>
@@ -129,7 +129,7 @@
             </div>
             <div class="facilities-col">
                 <img src="img/volodymyr-hryshchenko-U00ZXRlR3YE-unsplash.jpg">
-                <a href="forms.html">
+                <a href="forms.php">
                     <div class="layer1">
                         <h3>FORMS</h3>
                     </div>
@@ -141,7 +141,7 @@
             </div>
             <div class="facilities-col">
                 <img src="img/markus-winkler-Q2J2qQsoYH8-unsplash.jpg">
-                <a href="contact.html">
+                <a href="contact.php">
                     <div class="layer1">
                         <h3>INDEXES</h3>
                     </div>
@@ -158,7 +158,7 @@
         <h1>
             This project is made by Suryansh Saxena. <br>
         </h1>
-        <a href="contact.html" class="hero-btn">CONTACT US</a>
+        <a href="contact.php" class="hero-btn">CONTACT US</a>
     </section>
     <!--------Footer-------->
     <section class="footer">

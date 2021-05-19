@@ -15,8 +15,8 @@
             <h3><a href="index.html">SuRyAnSh</a></h3>
             <div class="nav-links">
                 <ul>
-                    <li><a href="features.html">FETAURES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="features.php">FETAURES</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +34,7 @@
                     This project was undertaken in response to the need for searching different ideas for looks of
                     forms, cards, indexes and homepages for several categories like photography, music, travel, etc.
                 </p>
-                <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+                <a href="index.php" class="hero-btn red-btn">EXPLORE NOW</a>
             </div>
             <div class="about-col">
                 <img src="img/james-pond-1qkyck-UL3g-unsplash.jpg">
